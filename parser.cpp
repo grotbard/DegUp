@@ -524,7 +524,7 @@ void parse(Arguments &arguments, int argc, char **argv)
         {"deg-up",   'u', "INPUT", 0, "Specify Degrading merge [deg-up deg] or Upgrading merge [deg-up up] ",0},
 		{"mu",   'm', "M", 0, "This option specifies the mu value for the Degrading/Upgrading merge algorithm",0},
 //        {"m",   'm', "M", 0, "This option specifies the m value - number of iterations.",0},
-		{"bin-ind",   'b', "B", 0, "This option specifies the mu value for the Degrading/Upgrading merge algorithm",0},
+		{"bin-ind",   'b', "B", 0, "This option specifies the Binary index <B> value for the Degrading/Upgrading merge algorithm. e.g bin-ind 01001",0},
 
         {NULL, 0, NULL, 0, "Output",0},
         {"output-filename",  'o', "OUTFILE", 0, "Output to OUTFILE instead of to standard output.",0},
